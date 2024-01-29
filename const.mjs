@@ -1,1 +1,1 @@
-export const TOKEN_AUTH = "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";
+export const TOKEN_AUTH = "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";
