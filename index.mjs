@@ -29,7 +29,7 @@ async function fetch_api(){
     if (data && data.length > 0 && data[0]['owner']['login'] === 'google'){
         return data;
     }else{
-        throw new Error('Dont found repositories with the user google')
+        throw new Error('Dont found repositories with the user '+ user)
     }
 }
 app.listen(port, () =>{
