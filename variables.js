@@ -1,6 +1,6 @@
 function operation_sin(x, y, z) {
   let sum = x + y;
-  let mul = a * z;
-  let sin_op = Math.sin(b);
-  return result;
+  let mul = sum * z;
+  let sin_op = Math.sin(mul);
+  return sin_op;
 }
